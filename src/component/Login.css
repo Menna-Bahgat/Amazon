@@ -1,0 +1,42 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    text-align: left;
+}
+.login-logo{
+    margin-top: 20px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.card{
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+.card button{
+    width: 100%;
+    padding: 3px;
+}
+.card p{
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.card-contain{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.card-contain input{
+    width: 100%;
+    margin-bottom: 10px;
+    border: solid 2px black;
+}
+.card-contain h6{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 15px;
+}

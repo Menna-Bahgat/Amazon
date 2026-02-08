@@ -1,0 +1,15 @@
+
+.orders{
+    padding: 50px;
+    /* margin: 20px 0; */
+    background-color: white;
+    position: relative;
+  }
+  .orders>h1{
+    margin-bottom: 20px;
+  }
+  .orders-order{
+    background-color: #eee;
+    padding: 20px;
+    
+  }
