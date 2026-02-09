@@ -4,7 +4,7 @@ import './CheckoutProduct.css'
 import { useAuth } from './Context/GlobalState';
 
 
-const CheckoutProduct = ({id, image, title, price, hiddenButton, }) => {
+const CheckoutProduct = ({id, image, title, price, }) => {
     const {dispatch} = useAuth()
     const removeFromBasket = ()=>{
         dispatch({
@@ -14,7 +14,7 @@ const CheckoutProduct = ({id, image, title, price, hiddenButton, }) => {
     }
   return (
     <div className='checkoutproduct'>
-        <img className='checkoutproduct-image' src={image}/>
+        <img className='checkoutproduct-image' src={image} alt=""/>
         <div className='checkoutproduct-info'>
             <p className='checkoutproduct-title'>{title}</p>
             <p className='checkoutproduct-price'>

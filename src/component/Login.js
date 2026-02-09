@@ -13,7 +13,7 @@ const Login = () => {
   return (
     <div className='login'>
         <Link to="/">
-          <img className='login-logo' src={logoo}/>
+          <img className='login-logo' src={logoo} alt=""/>
         </Link>
         <Card style={{ width: '22rem' }}>
             <Card.Body className='maincard'>

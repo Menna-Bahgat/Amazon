@@ -2,7 +2,6 @@ import React from 'react'
 import'./Product.css'
 import StarIcon from '@mui/icons-material/Star';
 import { useAuth } from './Context/GlobalState';
-import { type } from '@testing-library/user-event/dist/type';
 
 const Product = ({title, price, id, image, reting}) => {
   const {dispatch,basket} = useAuth()
@@ -35,7 +34,7 @@ const Product = ({title, price, id, image, reting}) => {
         <StarIcon/>
         <StarIcon/>
       </div>
-      <img src={image}/>
+      <img src={image} alt=""/>
       <button onClick={addToBasket}>Add To Basket</button>
     </div>
   )

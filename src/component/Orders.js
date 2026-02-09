@@ -3,7 +3,7 @@ import "./Orders.css"
 import CheckoutProduct from './CheckoutProduct'
 import { useAuth } from './Context/GlobalState'
 
-const Orders = ({order}) => {
+const Orders = () => {
     const {basket} = useAuth()
   return (
     <div className='orders'>

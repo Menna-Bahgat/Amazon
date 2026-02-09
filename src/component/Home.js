@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div className='home'>
         <div className="home-container">
-            <img className='home-img' src={homeimg}/>
+            <img className='home-img' src={homeimg} alt=""/>
             <div className='home-row'>
                 <Product 
                     id={shortid.generate()}

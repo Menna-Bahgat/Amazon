@@ -18,7 +18,7 @@ const Navs = () => {
     <Navbar expand="lg">
       <Container fluid>
         <Link to="/">
-          <img className='header-logo' src={logoo}/>
+          <img className='header-logo' src={logoo} alt=""/>
         </Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">

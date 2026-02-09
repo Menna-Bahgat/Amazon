@@ -10,7 +10,7 @@ const Checkout = () => {
   return (
     <div className='checkout'>
         <div className='checkout-left'>
-            <img className='Checkout-ad' src={loggo}/>
+            <img className='Checkout-ad' src={loggo} alt=""/>
             <h5>Hello, Guest</h5>
             <h4 className="checkout-title">Your Shopping Basket</h4>
             {basket.length > 0 ?(
